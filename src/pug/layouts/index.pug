@@ -1,0 +1,58 @@
+header
+// ▽メイン▽
+main
+    h1 在庫管理アプリ
+    .box
+        h2 登録する
+        .inputBox
+            dl
+                dt カテゴリ
+                dd
+                    select
+                        option シャンプー
+                        option 台所洗剤
+            dl
+                dt 製品
+                dd
+                    input(type="text")
+            dl
+                dt 在庫数
+                dd
+                    input(type="text")
+            button 登録
+    .box
+        h2 在庫リスト
+        .table
+            table
+                thead
+                    tr
+                        th カテゴリ
+                        th 製品
+                        th 在庫数
+                        th なくなりそうフラグ
+                tbody
+                    tr
+                        td シャンプー
+                        td ビダルサスーン 
+                        td
+                            input(type="text" value="1")
+                        td
+                            input(type="checkbox")
+                    tr
+                        td 台所洗剤
+                        td キッチンハイター
+                        td
+                            input(type="text" value="2")
+                        td
+                            input(type="checkbox")
+        button 更新する
+    .box
+        h2 欲しいもの登録
+        .inputBox
+            dl
+                dt 製品
+                dd
+                    input(type="text")
+            button 登録
+// △メイン△
+footer

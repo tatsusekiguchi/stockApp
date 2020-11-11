@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*===================================================
+	画面用CSS（PC/SMP）
+===================================================*/
+
+/*////////////////////////////////////////////////////////////
+	TOP
+///////////////////////////////////////////////////////////*/
+#top {
+	padding: 40px 10px;
+
+	main {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		margin-bottom: 40px;
+		font-size: 30px;
+	}
+
+	.box {
+		margin-bottom: 40px;
+	}
+
+	h2 {
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	.inputBox {
+
+		dl {
+			margin-bottom: 10px;
+		}
+	
+		button {
+			display: block;
+		}
+
+	}
+
+	.table {
+		margin-bottom: 10px;
+		
+		table {
+			width: 100%;
+			border-top: 1px solid #000;
+			border-left: 1px solid #000;
+	
+			tr {
+				border-bottom: 1px solid #000;
+			}
+
+			th,td {
+				padding: 10px;
+				border-right: 1px solid #000;
+			}
+
+		}
+
+	}
+
+}
+

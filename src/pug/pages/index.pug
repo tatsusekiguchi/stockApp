@@ -1,0 +1,15 @@
+//- レイアウト固有の変数
+- title = ''
+- description = ''
+- keywords = ''
+//- layout_js = ['js/top.js']
+- page_name = 'top'
+
+doctype html
+html(lang='ja')
+  head
+    include /common/head.pug
+  body#top
+    include /common/header.pug
+    include ../layouts/index.pug
+    include /common/footer.pug
